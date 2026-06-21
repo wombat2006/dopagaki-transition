@@ -1,7 +1,7 @@
 # Glossary Knowledge Filter — MCP（portable 仕様）
 
 Status:
-Specification — stub at [mcp/glossary-knowledge/](../../mcp/glossary-knowledge/)
+Specification — stub at [term-prep-platform/mcp/glossary-knowledge](https://github.com/wombat2006/term-prep-platform/tree/main/mcp/glossary-knowledge)
 
 Related:
 [O-P002-004](../options/O-P002-004-external-knowledge-filter.md)

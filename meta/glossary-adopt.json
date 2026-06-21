@@ -1,0 +1,482 @@
+{
+  "generated_at": "2026-06-21T09:48:51.571982+00:00",
+  "status": "adopt",
+  "morphology": {
+    "backend": "fugashi",
+    "dictionary": "unidic-lite",
+    "dicdir": "/home/wombat/.local/lib/python3.9/site-packages/unidic_lite/dicdir",
+    "required": true
+  },
+  "corpus_files": [
+    "/home/wombat/dopagaki-transition/manuscript/part01/ch02-dopamine-is-not-pleasure.md",
+    "/home/wombat/dopagaki-transition/manuscript/part01/ch03-exploration-in-information-flood.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch04-industrialization-of-exploration.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch05-skinner-box-planetary-scale.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch06-attention-capitalism.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch07-digital-capital-theory.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch09-attention-scarcity.md"
+  ],
+  "count": 23,
+  "candidates": [
+    {
+      "term": "探索",
+      "lang": "ja",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 23,
+      "morph_freq": 23,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch03-exploration-in-information-flood",
+        "ch04-industrialization-of-exploration",
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "ドーパミン",
+      "lang": "ja",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 20,
+      "morph_freq": 20,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch04-industrialization-of-exploration",
+        "ch05-skinner-box-planetary-scale",
+        "ch06-attention-capitalism"
+      ],
+      "signals": [
+        "katakana",
+        "morph"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Capacity",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 9,
+      "morph_freq": 5,
+      "emphasis_freq": 4,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english",
+        "morph"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Capture",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 8,
+      "morph_freq": 4,
+      "emphasis_freq": 4,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english",
+        "morph"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Attention Capacity",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 3,
+      "morph_freq": 0,
+      "emphasis_freq": 3,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Effective Population",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 3,
+      "morph_freq": 0,
+      "emphasis_freq": 3,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Attention Capture",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Attention Inflation",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis",
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Cognitive Bandwidth",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Evolutionary Mismatch",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch03-exploration-in-information-flood"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Participation Capital",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch07-digital-capital-theory",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis",
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Platform Capital",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Variable Reward",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch05-skinner-box-planetary-scale"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Behavioural Extraction Economy",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Industrialized Skinner Box",
+      "lang": "en",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "ゼロサム",
+      "lang": "ja",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 1,
+      "morph_freq": 1,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "katakana"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "予測機械",
+      "lang": "ja",
+      "score": 99,
+      "status": "adopt",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "manual_adopt"
+      ]
+    },
+    {
+      "term": "Attention Capitalism",
+      "lang": "en",
+      "score": 7,
+      "status": "adopt",
+      "frequency": 6,
+      "morph_freq": 0,
+      "emphasis_freq": 6,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "in_ts_or_adr",
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Attention Scarcity",
+      "lang": "en",
+      "score": 5,
+      "status": "adopt",
+      "frequency": 3,
+      "morph_freq": 0,
+      "emphasis_freq": 3,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "in_ts_or_adr",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Evolutionary",
+      "lang": "en",
+      "score": 5,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 2,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch03-exploration-in-information-flood"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "in_ts_or_adr",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Layer 1",
+      "lang": "en",
+      "score": 5,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "in_ts_or_adr",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Mismatch",
+      "lang": "en",
+      "score": 5,
+      "status": "adopt",
+      "frequency": 2,
+      "morph_freq": 2,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch03-exploration-in-information-flood"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "in_ts_or_adr",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Meaning Allocation",
+      "lang": "en",
+      "score": 5,
+      "status": "adopt",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "in_ts_or_adr",
+        "english_pair"
+      ]
+    }
+  ]
+}

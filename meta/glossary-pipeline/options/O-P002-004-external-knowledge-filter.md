@@ -83,7 +83,7 @@ glossary CLI / Cursor
 
 仕様 stub: [mcp/README.md](../mcp/README.md)
 
-PoC 着手条件:** Phase 0–1 完了後。stub は [mcp/glossary-knowledge/](../../mcp/glossary-knowledge/)。
+PoC 着手条件:** Phase 0 済。Phase 1 完了後に client 連携。stub は [term-prep-platform/mcp/glossary-knowledge](https://github.com/wombat2006/term-prep-platform/tree/main/mcp/glossary-knowledge)。
 
 ---
 
@@ -164,4 +164,4 @@ Provider 設定は **MCP server 側** `providers.json`。API key は MCP env の
 ## 採択時メモ
 
 - **2026-06-21:** 実装形態 MCP 採択（D-002）。API 比較 RL 作成。
-- **2026-06-21 close:** [mcp/glossary-knowledge/](../../mcp/glossary-knowledge/) stub 作成。第一 provider・CLI 連携は Phase 2.5 まで defer。
+- **2026-06-21 close:** [term-prep-platform/mcp/glossary-knowledge](https://github.com/wombat2006/term-prep-platform/tree/main/mcp/glossary-knowledge) stub 作成。第一 provider・CLI 連携は Phase 2.5 まで defer。

@@ -1,0 +1,505 @@
+{
+  "generated_at": "2026-06-21T09:48:51.571982+00:00",
+  "status": "hold",
+  "morphology": {
+    "backend": "fugashi",
+    "dictionary": "unidic-lite",
+    "dicdir": "/home/wombat/.local/lib/python3.9/site-packages/unidic_lite/dicdir",
+    "required": true
+  },
+  "corpus_files": [
+    "/home/wombat/dopagaki-transition/manuscript/part01/ch02-dopamine-is-not-pleasure.md",
+    "/home/wombat/dopagaki-transition/manuscript/part01/ch03-exploration-in-information-flood.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch04-industrialization-of-exploration.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch05-skinner-box-planetary-scale.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch06-attention-capitalism.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch07-digital-capital-theory.md",
+    "/home/wombat/dopagaki-transition/manuscript/part02/ch09-attention-scarcity.md"
+  ],
+  "count": 23,
+  "candidates": [
+    {
+      "term": "Depends",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 14,
+      "morph_freq": 7,
+      "emphasis_freq": 7,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch03-exploration-in-information-flood",
+        "ch04-industrialization-of-exploration",
+        "ch05-skinner-box-planetary-scale",
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english",
+        "morph"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Economy",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 4,
+      "morph_freq": 4,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch07-digital-capital-theory",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "III",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 4,
+      "morph_freq": 3,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch07-digital-capital-theory",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english",
+        "morph"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "obsolete",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 4,
+      "morph_freq": 4,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Ch 7",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 3,
+      "morph_freq": 0,
+      "emphasis_freq": 3,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Extraction",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 3,
+      "morph_freq": 3,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Attention Economy",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch07-digital-capital-theory",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Ch 10",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Ch 9",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Chapter 4",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch04-industrialization-of-exploration",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Chapter 5",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch05-skinner-box-planetary-scale",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Chapter 6",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Continued Engagement",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch05-skinner-box-planetary-scale"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Reinforcement Learning",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch05-skinner-box-planetary-scale"
+      ],
+      "signals": [
+        "english"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Theory",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 2,
+      "emphasis_freq": 0,
+      "code_freq": 0,
+      "chapters": [
+        "ch06-attention-capitalism",
+        "ch07-digital-capital-theory"
+      ],
+      "signals": [
+        "morph"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "環境によって誘発される認知状態",
+      "lang": "ja",
+      "score": 4,
+      "status": "hold",
+      "frequency": 2,
+      "morph_freq": 0,
+      "emphasis_freq": 2,
+      "code_freq": 0,
+      "chapters": [
+        "ch02-dopamine-is-not-pleasure",
+        "ch03-exploration-in-information-flood"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "multi_chapter",
+        "emphasis"
+      ]
+    },
+    {
+      "term": "Attention Capacity は以下で上限が決まる。",
+      "lang": "mixed",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 0,
+      "code_freq": 1,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "code"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Participation Capital（参加側の資本）",
+      "lang": "mixed",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Platform Capital（獲得側の資本）",
+      "lang": "mixed",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Population:",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "Time:",
+      "lang": "en",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "潜在総量（Capacity）",
+      "lang": "mixed",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    },
+    {
+      "term": "獲得（Capture）",
+      "lang": "mixed",
+      "score": 4,
+      "status": "hold",
+      "frequency": 1,
+      "morph_freq": 0,
+      "emphasis_freq": 1,
+      "code_freq": 0,
+      "chapters": [
+        "ch09-attention-scarcity"
+      ],
+      "signals": [
+        "emphasis"
+      ],
+      "reasons": [
+        "emphasis",
+        "english_pair"
+      ]
+    }
+  ]
+}

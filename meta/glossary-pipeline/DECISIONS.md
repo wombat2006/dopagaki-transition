@@ -13,7 +13,7 @@ Living document
 
 | ID | 日付 | Problem | 採択案 | 実装 |
 |---|---|---|---|---|
-| D-002 | 2026-06-21 | P-002 | O-P002-004（MCP stub） | closed — [mcp/glossary-knowledge/](../../mcp/glossary-knowledge/) |
+| D-002 | 2026-06-21 | P-002 | O-P002-004（MCP stub） | closed — [term-prep-platform/mcp/glossary-knowledge](https://github.com/wombat2006/term-prep-platform/tree/main/mcp/glossary-knowledge) |
 
 ---
 
@@ -73,10 +73,10 @@ Living document
 
 **未決（別 DECISION 待ち）:** 第一プロバイダ（K-003 / K-006 / K-008）。Research Log [RL-20260621](../../research-log/RL-20260621-knowledge-filter-mcp.md) 参照。
 
-**実装:** **stub 完了** — `mcp/glossary-knowledge/`（NullProvider、4 tools）。Research Log [RL-20260621](../../research-log/RL-20260621-knowledge-filter-mcp.md) **closed** 2026-06-21。
+**実装:** **stub 完了** — [term-prep-platform/mcp/glossary-knowledge](https://github.com/wombat2006/term-prep-platform/tree/main/mcp/glossary-knowledge)（NullProvider、4 tools）。Research Log [RL-20260621](../../research-log/RL-20260621-knowledge-filter-mcp.md) **closed** 2026-06-21。
 
-**deferred（Phase 2.5 再開時）:** cache、第一 provider、glossary CLI MCP client。
+**deferred（Phase 2.5 再開時）:** cache、第一 provider、glossary CLI MCP client — いずれも **platform 側**。
 
-**影響:** `mcp/glossary-knowledge/`, TO-BE Phase 2.5
+**影響:** platform `mcp/glossary-knowledge/`, TO-BE Phase 2.5。
 
 **必須併用:** O-P002-001 registry seed-first

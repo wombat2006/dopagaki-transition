@@ -25,7 +25,26 @@
     "adr/ADR-CATALOG.md",
     "GLOSSARY.md"
   ],
-  "output": "meta/glossary-candidates.json",
+  "filter": {
+    "seed_first": true,
+    "min_morph_freq": 3,
+    "min_chapters": 2,
+    "max_candidates_output": 100,
+    "emit_reject": false
+  },
+  "knowledge_filter": {
+    "enabled": false,
+    "mcp_server": "term-prep-platform/mcp/glossary-knowledge",
+    "transport": "stdio",
+    "domain": "attention-economics",
+    "batch_size": 50
+  },
+  "output": {
+    "registry": "meta/glossary-registry.json",
+    "adopt": "meta/glossary-adopt.json",
+    "hold": "meta/glossary-hold.json",
+    "reject": "build/glossary/reject.jsonl"
+  },
   "scoring": {
     "adopt_threshold": 5,
     "hold_threshold": 3,

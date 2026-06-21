@@ -1,10 +1,13 @@
 # Glossary Pipeline — 移植パッケージ
 
 Project:
-ドパガキは模範生
+ドパガキは模範生（**consumer**）
 
 Status:
-Portable scaffold
+Portable scaffold — governance コピー。実装の canonical は **term-prep-platform**
+
+**Canonical 実装:** [term-prep-platform](https://github.com/wombat2006/term-prep-platform)  
+**本 repo:** corpus・GLOSSARY・`meta/glossary-config.json`（platform 側 mirror: `projects/dopagaki-transition/`）
 
 ---
 
@@ -12,16 +15,28 @@ Portable scaffold
 
 用語抽出パイプラインの **問題・解決手段の案・採択** を、実装（Python）から分離して記録する。
 
-- 本リポジトリだけでなく **他 PRJ・専門用語辞典 PRJ** へコピーして使う
 - [TO-BE-GLOSSARY-PIPELINE.md](../TO-BE-GLOSSARY-PIPELINE.md) は方向性、**本ディレクトリは手段の検討ログ**
+- 新規 Python / MCP の開発は **platform**。本 repo の `scripts/`・`mcp/` は移行期の mirror
 
 ---
 
 ## ディレクトリ構成
 
+**Platform（canonical）:**
+
+```text
+term-prep-platform/
+  mcp/glossary-knowledge/     … MCP 実装（正本）
+  scripts/glossary_extractor.py
+  meta/glossary-pipeline/     … governance 正本
+  projects/dopagaki-transition/glossary-config.json
+```
+
+**本 repo（consumer + governance コピー）:**
+
 ```text
 meta/glossary-pipeline/
-  README.md              … 本ファイル（移植手順）
+  README.md              … 本ファイル
   PROBLEMS.md            … 問題一覧（P-xxx）
   OPTIONS.md             … 手段案インデックス + サマリ
   DECISIONS.md           … 採択ログ（D-xxx）
@@ -29,21 +44,18 @@ meta/glossary-pipeline/
   mcp/                   … Knowledge Filter MCP 仕様（portable）
   glossary-config.template.json
 
-mcp/glossary-knowledge/  … MCP stub 実装（本 repo ルート）
-```
-
-```text
-scripts/
-  glossary_extractor.py  … CLI 入口（別途コピー）
-  README.md              … セットアップ
-requirements-dev.txt     … fugashi + unidic-lite
+scripts/glossary_extractor.py  … CLI 入口（platform と同期。Phase 1 以降 platform 参照）
 ```
 
 ---
 
 ## 他 PRJ への移植
 
-### 最小セット（検討スペースのみ）
+### 推奨: platform を使う
+
+新規 PRJ は [term-prep-platform](https://github.com/wombat2006/term-prep-platform) に `projects/<name>/glossary-config.json` を追加し、MCP・extractor を共有する。
+
+### 最小セット（governance のみ）
 
 ```bash
 cp -r meta/glossary-pipeline /path/to/other-project/meta/
@@ -51,19 +63,15 @@ cp -r meta/glossary-pipeline /path/to/other-project/meta/
 
 `PROBLEMS.md` / `OPTIONS.md` を PRJ 用に編集。Problem ID は PRJ 内で独立。
 
-### 抽出ツール込み（推奨）
+### レガシー: 抽出ツールを repo 内にコピー
+
+platform 未導入の PRJ 向け。platform 導入後はこの手順は不要。
 
 ```bash
-#  governance
 cp -r meta/glossary-pipeline /path/to/other-project/meta/
 cp meta/glossary-config.template.json /path/to/other-project/meta/glossary-config.json
-
-#  tooling
 cp scripts/glossary_extractor.py /path/to/other-project/scripts/
-cp requirements-dev.txt /path/to/other-project/   # または追記
-
-#  optional
-cp meta/TO-BE-GLOSSARY-PIPELINE.md /path/to/other-project/meta/
+cp requirements-dev.txt /path/to/other-project/
 ```
 
 移植後:
@@ -85,7 +93,7 @@ options/O-xxx.md に手段案を列記（複数可）
     ↓
 OPTIONS.md インデックス更新
     ↓
-採択 → DECISIONS.md（D-xxx）+ TO-BE / config / 実装
+採択 → DECISIONS.md（D-xxx）+ TO-BE / config / 実装（platform 側）
     ↓
 不採択案は options/ に残す（Traceability）
 ```
@@ -109,6 +117,7 @@ OPTIONS.md インデックス更新
 - [TO-BE-GLOSSARY-PIPELINE.md](../TO-BE-GLOSSARY-PIPELINE.md) — 技術 TO-BE・Phase ロードマップ
 - [glossary-config.json](../glossary-config.json) — 本 PRJ の実行時設定
 - [scripts/README.md](../../scripts/README.md) — fugashi セットアップ
+- [term-prep-platform](https://github.com/wombat2006/term-prep-platform) — MCP・extractor の canonical 実装
 
 ---
 
@@ -127,4 +136,4 @@ OPTIONS.md インデックス更新
 
 Research Log: [RL-20260621-knowledge-filter-mcp](../../research-log/RL-20260621-knowledge-filter-mcp.md) — **Closed**
 
-Implementation: [mcp/glossary-knowledge/](../../mcp/glossary-knowledge/README.md)
+Implementation: [term-prep-platform/mcp/glossary-knowledge](https://github.com/wombat2006/term-prep-platform/tree/main/mcp/glossary-knowledge)

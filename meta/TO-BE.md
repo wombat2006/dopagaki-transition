@@ -38,4 +38,5 @@ Draft
 ## Technical TO-BE
 
 - [TO-BE-GLOSSARY-PIPELINE.md](TO-BE-GLOSSARY-PIPELINE.md) — 用語抽出パイプライン（Phase ロードマップ）
-- [glossary-pipeline/](glossary-pipeline/README.md) — **手段案の列記・採択ログ**（他 PRJ へ `meta/glossary-pipeline/` をコピー）
+- [glossary-pipeline/](glossary-pipeline/README.md) — **手段案の列記・採択ログ**（governance の portable コピー）
+- **Canonical 実装:** [term-prep-platform](https://github.com/wombat2006/term-prep-platform) — MCP・`glossary_extractor.py`・governance 正本。本 repo は **consumer**（corpus・GLOSSARY・`meta/glossary-config.json`）
