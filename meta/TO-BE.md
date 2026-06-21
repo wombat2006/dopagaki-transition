@@ -11,12 +11,12 @@ Draft
 
 ## Immediate Goals
 
-- Complete constitution layer
+- Dual-audience structure (Reader / Researcher entry points)
+- Part I Ch 1 Accepted manuscript
+- Part II Ch 4–5, 7.1–7.2, Ch 8 Accepted manuscripts
 - Split ADR catalog into individual ADR files
 - Split TS catalog into individual TS files
-- Rewrite README.md
-- Create manuscript directory structure
-- Write Part II Ch 7–8 (obsolete bridge chapters)
+- Research Log bootstrap
 
 ## Planned ADR
 
