@@ -22,7 +22,7 @@ Part I (Accepted)
 | 4 | [ch04-industrialization-of-exploration.md](ch04-industrialization-of-exploration.md) | Accepted |
 | 5 | [ch05-skinner-box-planetary-scale.md](ch05-skinner-box-planetary-scale.md) | Accepted |
 | 6 | [ch06-attention-capitalism.md](ch06-attention-capitalism.md) | Accepted |
-| 7 | [ch07-capital-theory-obsolete.md](ch07-capital-theory-obsolete.md) | Outline |
+| 7 | [ch07-digital-capital-theory.md](ch07-digital-capital-theory.md) | Accepted (§7.3) |
 | 8 | [ch08-capitalism-vs-communism-obsolete.md](ch08-capitalism-vs-communism-obsolete.md) | Outline |
 | 9 | [ch09-attention-scarcity.md](ch09-attention-scarcity.md) | Accepted |
 | 10 | [ch10-prediction-is-the-product.md](ch10-prediction-is-the-product.md) | Accepted |

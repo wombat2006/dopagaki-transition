@@ -82,9 +82,12 @@ Attention Capitalism
 
 ### Chapter 7
 
-Capital Theory
+デジタル資本論 / Digital Capital Theory
 
-[Outline] ⚠️ obsolete
+[Accepted Manuscript] — §7.3 利用者は顧客か商品か
+
+§7.1–7.2: [Outline] obsolete bridge
+§7.4: 認知的剰余価値 — [Outline]
 
 ---
 
@@ -108,7 +111,7 @@ Attention Scarcity
 
 Prediction Is The Product
 
-[Accepted Manuscript]
+[Superseded] → Ch 7 §7.3
 
 ---
 
@@ -116,7 +119,7 @@ Prediction Is The Product
 
 The Great Inversion
 
-[Accepted Manuscript]
+[Superseded] → Ch 7 §7.3
 
 ---
 
