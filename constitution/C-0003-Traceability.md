@@ -14,4 +14,6 @@
 
 採択に至るまでに検討された **主要な代替案** とその **棄却理由** を Research Log または ADR に記録する。採択案と採択理由のみの記録は、本条文が求める Traceability を満たさない。
 
+GitHub Issue を close する前に、[research-log/ISSUE-CLOSE-CHECKLIST.md](../research-log/ISSUE-CLOSE-CHECKLIST.md) を満たさなければならない。
+
 記録されていない重要な決定は存在しなかったものとして扱われる。

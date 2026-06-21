@@ -82,6 +82,8 @@ Research Log   採択前の議論・査読
 
 Issue: https://github.com/wombat2006/dopagaki-transition/issues
 
+Issue close 前: [research-log/ISSUE-CLOSE-CHECKLIST.md](../research-log/ISSUE-CLOSE-CHECKLIST.md)（[C-0003](../constitution/C-0003-Traceability.md)）
+
 Pull Request: https://github.com/wombat2006/dopagaki-transition/pulls
 
 ---
