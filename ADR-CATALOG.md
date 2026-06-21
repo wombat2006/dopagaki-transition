@@ -1,7 +1,10 @@
 # ADR-CATALOG.md
 
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Status:
 Accepted
@@ -13,7 +16,7 @@ Last Updated:
 
 # Purpose
 
-本ファイルは Dopagaki Transition Project における Architecture Decision Record の正典カタログである。
+本ファイルは『ドパガキは模範生』プロジェクトにおける Architecture Decision Record の正典カタログである。
 
 ADR は本プロジェクトにおける判例であり、理論上の重要な意思決定を記録する。
 

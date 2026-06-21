@@ -1,4 +1,4 @@
-# Constitution of the Dopagaki Transition Project
+# Constitution of the ドパガキは模範生 Project
 
 本ディレクトリに格納される C-*.md は、本研究プロジェクトにおける最高位の規範である。
 

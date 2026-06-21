@@ -1,7 +1,10 @@
 # TO-BE.md
 
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Status:
 Draft

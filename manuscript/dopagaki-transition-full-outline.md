@@ -1,4 +1,4 @@
-# The Dopagaki Transition
+# ドパガキは模範生
 
 ## From Dopamine Economy to Meaning Economy:
 ## A Neuropsychiatric, Socioeconomic and Civilizational Perspective

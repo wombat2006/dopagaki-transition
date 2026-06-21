@@ -1,7 +1,13 @@
 # MANUSCRIPT-v0.1
 
+Title:
+ドパガキは模範生
+
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Subtitle:
 From Dopamine Economy to Meaning Economy:

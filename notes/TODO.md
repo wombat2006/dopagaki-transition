@@ -1,4 +1,4 @@
-# Dopagaki Transition TODO
+# ドパガキは模範生 TODO
 
 ## Manuscript
 - [ ] Part I Chapter 1 commit

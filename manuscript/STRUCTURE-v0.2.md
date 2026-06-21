@@ -1,7 +1,10 @@
 # STRUCTURE-v0.2.md
 
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Status:
 Reviewed

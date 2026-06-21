@@ -1,7 +1,10 @@
 # PROJECT-CONTEXT.md
 
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Status:
 Canonical Context
@@ -14,6 +17,8 @@ Last Updated:
 # 1. Origin
 
 本プロジェクトはインターネットスラング「ドパガキ」から始まった。
+
+プロジェクトタイトル **『ドパガキは模範生』** は、注意経済における大転倒（The Great Inversion）を端的に示す。工業社会の価値観から見れば問題児であるドパガキが、注意資本主義から見れば模範的経済主体である——この逆転こそが本研究の挑発的出発点である。
 
 当初の問いは単純だった。
 
@@ -177,7 +182,7 @@ Civilization
 AI Civilization
 ```
 
-Dopagaki Transition は、ドパガキ現象を入口として、Attention Civilization から Meaning Civilization への遷移を考察する Research Repository である。
+『ドパガキは模範生』は、ドパガキ現象を入口として、Attention Civilization から Meaning Civilization への移行を考察する Research Repository である。
 
 ---
 

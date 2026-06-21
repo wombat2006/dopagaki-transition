@@ -1,7 +1,10 @@
 # META-SPECIFICATION.md
 
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Status:
 Canonical
@@ -11,7 +14,7 @@ Last Updated:
 
 Purpose:
 
-本ファイルは Dopagaki Transition Project における知識管理構造を定義する。
+本ファイルは『ドパガキは模範生』プロジェクトにおける知識管理構造を定義する。
 
 本ファイルは理論そのものを定義しない。
 

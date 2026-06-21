@@ -1,7 +1,10 @@
 # TS-CATALOG.md
 
 Project:
-Dopagaki Transition
+ドパガキは模範生
+
+Repository:
+dopagaki-transition
 
 Status:
 Accepted Draft
@@ -13,7 +16,7 @@ Last Updated:
 
 # Purpose
 
-本ファイルは Dopagaki Transition Project における Theory Specification の正典カタログである。
+本ファイルは『ドパガキは模範生』プロジェクトにおける Theory Specification の正典カタログである。
 
 TS は ADR によって採択された決定を理論仕様として定義する。
 
