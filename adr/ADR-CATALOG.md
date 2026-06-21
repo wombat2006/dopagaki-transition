@@ -51,9 +51,19 @@ Attention Capacity
 
 Attention は有限である。
 
+### Supplement (Layer 2)
+
+ADR-0001 の Decision（Layer 1: Ontological Scarcity）は改変しない。
+
+Layer 2（Economic Access Scarcity）——Platform Capital / Participation Capital、Effective Population——は Ch 9 §9.2.1–9.2.3 および [research-log/ISSUE-001-attention-capital-constraints.md](../research-log/ISSUE-001-attention-capital-constraints.md) に従い Manuscript へ反映した。
+
 ### Related ADR
 
 - ADR-0002 Meaning Allocation
+
+### Related Research Log
+
+- [ISSUE-001 Attention が制約される要因の欠如](../research-log/ISSUE-001-attention-capital-constraints.md)
 
 ### Tags
 

@@ -16,7 +16,6 @@ Draft
 - Part II Ch 4–5, 7.1–7.2, Ch 8 Accepted manuscripts
 - Split ADR catalog into individual ADR files
 - Split TS catalog into individual TS files
-- Research Log bootstrap
 
 ## Planned ADR
 

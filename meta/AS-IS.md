@@ -36,3 +36,6 @@ manuscript/README.md (Reader) + research/README.md (Researcher)
 
 Glossary:
 GLOSSARY.md
+
+Research Log:
+research-log/ — ISSUE-001 merged

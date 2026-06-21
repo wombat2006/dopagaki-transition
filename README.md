@@ -88,7 +88,7 @@ constitution/     憲法
 adr/              判例
 ts/               理論仕様
 meta/             管理・二層設計
-research-log/     研究過程（今後）
+research-log/     研究過程（[README](research-log/README.md)）
 PROJECT-CONTEXT.md
 ```
 

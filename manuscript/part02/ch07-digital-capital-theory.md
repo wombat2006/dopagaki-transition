@@ -166,6 +166,8 @@ Prediction = Product
 
 利用者は意図せず価値創出へ参加している。賃金は発生しない。しかし価値は発生する。これは労働とも消費とも異なる第三の活動形態である。
 
+参加型資源である利用者は、Platform 上で価値を生む。しかしその参加には **Participation Capital**——端末・通信などの自己負担——が要る（Ch 9 §9.2.2 参照）。
+
 ---
 
 ### Dopagaki as an Ideal Economic Actor
