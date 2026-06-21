@@ -133,15 +133,17 @@ The Great Inversion
 
 ## Meaning Economy
 
-### Chapter 7.4
+通し章番号: Part II（Ch 4–11）に続く。
+
+### Chapter 12
 
 Surplus Attention Value
 
-[Outline]
+[Outline] — 旧 Part II §7.4 から移行予定
 
 ---
 
-### Chapter 8
+### Chapter 13
 
 Meaning Allocation
 
@@ -149,7 +151,7 @@ Meaning Allocation
 
 ---
 
-### Chapter 9
+### Chapter 14
 
 Meaning Economy
 
@@ -161,7 +163,7 @@ Meaning Economy
 
 ## Religion Layer
 
-### Chapter 10
+### Chapter 15
 
 Religion as Infrastructure
 
@@ -169,7 +171,7 @@ Religion as Infrastructure
 
 ---
 
-### Chapter 11
+### Chapter 16
 
 Competing Meaning Systems
 
@@ -181,7 +183,7 @@ Competing Meaning Systems
 
 ## Civilizational Transition
 
-### Chapter 12
+### Chapter 17
 
 From Industrial Civilization to Attention Civilization
 
@@ -189,7 +191,7 @@ From Industrial Civilization to Attention Civilization
 
 ---
 
-### Chapter 13
+### Chapter 18
 
 AI and the Cost of Information
 
@@ -197,7 +199,7 @@ AI and the Cost of Information
 
 ---
 
-### Chapter 14
+### Chapter 19
 
 The Future of Meaning
 

@@ -246,7 +246,7 @@ TS-0005 Prediction Market Model
 
 ## ADR-P001 Surplus Attention Value
 
-Candidate for Chapter 7.4.
+Candidate for Chapter 12（旧 §7.4）。
 
 ## ADR-P002 Meaning Economy
 

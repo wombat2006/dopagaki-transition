@@ -8,7 +8,7 @@
 - [ ] Part II Chapter 5 commit
 - [ ] Part II Chapter 6 commit
 - [x] Part II Chapter 7.3 commit
-- [ ] Part II Chapter 7.4 write
+- [ ] Part III Chapter 12 write（旧 Part II §7.4 Surplus Attention Value）
 - [ ] Part II Chapter 7.5 write
 
 ## Theory
