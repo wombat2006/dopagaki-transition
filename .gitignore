@@ -1,0 +1,7 @@
+.DS_Store
+.cursor/
+.vscode/
+node_modules/
+dist/
+tmp/
+*.log
