@@ -14,6 +14,8 @@ Reader
 
 判例（ADR）や理論仕様（TS）の細部は後回しでよい。まずは「なぜドパガキは模範生なのか」を、物語として読んでほしい。
 
+**初見:** 先に [GLOSSARY.md](../GLOSSARY.md)（約 5 分）を読むと、専門語が頭に入りやすい。
+
 研究者向けの入口は [research/README.md](../research/README.md)。
 
 ---

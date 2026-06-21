@@ -16,6 +16,8 @@ Researcher
 
 読者として読みたい場合は [manuscript/README.md](../manuscript/README.md)。
 
+用語の要約: [GLOSSARY.md](../GLOSSARY.md)
+
 ---
 
 ## 研究の読み方

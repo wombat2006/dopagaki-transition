@@ -33,3 +33,6 @@ In Progress
 
 Dual Audience:
 manuscript/README.md (Reader) + research/README.md (Researcher)
+
+Glossary:
+GLOSSARY.md
