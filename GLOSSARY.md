@@ -126,7 +126,7 @@ Prediction = Product
 
 ### 大転倒（The Great Inversion）
 
-**一行:** 文明の「理想的行为」が、工業社会から注意社会へ **反転** している、という thesis。
+**一行:** 文明の「理想的行動」が、工業社会から注意社会へ **反転** している、という thesis。
 
 ```text
 Industrial Society:  規律 / 反復 / 集中
@@ -199,7 +199,7 @@ Religion = Attention Allocation System
 
 ### ドーパミン経済
 
-探索・期待を連続刺激する報酬系設計が、市場競争の対象になった状態。第 4–6 章の文脈語（TS 単独条目なし）。
+探索・期待を連続刺激する報酬系設計が、市場競争の対象になった状態。第 4–6 章の文脈語（TS 単独項目なし）。
 
 → [manuscript/part02/ch04-industrialization-of-exploration.md](manuscript/part02/ch04-industrialization-of-exploration.md)
 

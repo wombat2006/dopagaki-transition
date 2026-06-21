@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "locale-policy.schema.json",
+  "title": "Locale Policy",
+  "description": "Allowed and denied character policy for repository text files.",
+  "type": "object",
+  "required": ["version", "default", "allow", "targets"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "default": {
+      "type": "string",
+      "enum": ["deny", "allow"],
+      "description": "Action for code points not matched by allow/deny rules. Use deny."
+    },
+    "allow": {
+      "type": "object",
+      "required": ["ranges"],
+      "additionalProperties": false,
+      "properties": {
+        "codepoints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/codepoint"
+          },
+          "uniqueItems": true
+        },
+        "ranges": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/range"
+          }
+        },
+        "emoji": {
+          "type": "string",
+          "enum": ["none", "all"],
+          "description": "When all, emoji ranges are appended to allow.ranges at check time."
+        }
+      }
+    },
+    "deny": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1
+          },
+          "uniqueItems": true,
+          "description": "Single characters denied even if inside an allowed range."
+        },
+        "phrases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 2
+          },
+          "uniqueItems": true,
+          "description": "Substrings denied (e.g. simplified-Chinese compounds)."
+        },
+        "ranges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/range"
+          },
+          "description": "Optional code-point ranges denied after allow match."
+        }
+      }
+    },
+    "targets": {
+      "type": "object",
+      "required": ["extensions"],
+      "additionalProperties": false,
+      "properties": {
+        "extensions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^\\."
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "exclude_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "exclude_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "description": "Repo-relative file paths skipped by the checker."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "codepoint": {
+      "type": "string",
+      "pattern": "^0x[0-9A-Fa-f]+$",
+      "description": "Single Unicode code point in hex notation."
+    },
+    "range": {
+      "type": "object",
+      "required": ["id", "start", "end"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "start": {
+          "$ref": "#/$defs/codepoint"
+        },
+        "end": {
+          "$ref": "#/$defs/codepoint"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

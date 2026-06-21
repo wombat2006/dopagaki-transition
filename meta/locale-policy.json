@@ -1,0 +1,38 @@
+{
+  "$schema": "./schemas/locale-policy.schema.json",
+  "version": "1.0.0",
+  "default": "deny",
+  "allow": {
+    "codepoints": ["0x0009", "0x000A", "0x000D"],
+    "emoji": "all",
+    "ranges": [
+      { "id": "basic-latin", "start": "0x0020", "end": "0x007E" },
+      { "id": "latin-1-supplement", "start": "0x00A0", "end": "0x00FF" },
+      { "id": "general-punctuation", "start": "0x2000", "end": "0x206F", "note": "—, ※, …" },
+      { "id": "arrows", "start": "0x2190", "end": "0x21FF" },
+      { "id": "math-operators", "start": "0x2200", "end": "0x22FF", "note": "≠, ∵, ∴" },
+      { "id": "cyrillic", "start": "0x0400", "end": "0x04FF", "note": "顔文字 (｡•̀ᴗ-) 等" },
+      { "id": "thai", "start": "0x0E00", "end": "0x0E7F", "note": "顔文字 (ขอให้โล) 等" },
+      { "id": "cjk-symbols", "start": "0x3000", "end": "0x303F" },
+      { "id": "hiragana", "start": "0x3040", "end": "0x309F" },
+      { "id": "katakana", "start": "0x30A0", "end": "0x30FF" },
+      { "id": "cjk-unified", "start": "0x4E00", "end": "0x9FFF" },
+      { "id": "cjk-compat-forms", "start": "0xFE30", "end": "0xFE4F" },
+      { "id": "halfwidth-fullwidth", "start": "0xFF00", "end": "0xFFEF" }
+    ]
+  },
+  "deny": {
+    "characters": [
+      "为", "这", "说", "们", "从", "电", "门", "车", "让", "还",
+      "观", "质", "组", "织", "结", "构", "进", "运", "网", "络",
+      "码", "击", "选", "题", "键", "帮", "联", "馈", "错",
+      "删", "创", "继", "续", "开"
+    ],
+    "phrases": ["行为", "条目"]
+  },
+  "targets": {
+    "extensions": [".md", ".txt", ".yaml", ".yml", ".json", ".toml"],
+    "exclude_paths": [".git", "meta/schemas"],
+    "exclude_files": ["meta/locale-policy.json"]
+  }
+}
