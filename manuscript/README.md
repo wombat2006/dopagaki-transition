@@ -57,9 +57,9 @@ Reader
 
 ---
 
-## 草稿・試論（本編外）
+## 草稿・試論（正典外）
 
-査読前の試論。本編のトーンを掴むための参考資料。
+査読前の試論。正典原稿のトーンを掴むための参考資料。
 
 - [dopagakiensis-sapiens-preliminary-observation.md](dopagakiensis-sapiens-preliminary-observation.md) — 先行観察稿
 - [dopagaki-syndrome-socio-neuroeconomic-perspective.md](dopagaki-syndrome-socio-neuroeconomic-perspective.md) — 擬似 Lancet 総説稿
