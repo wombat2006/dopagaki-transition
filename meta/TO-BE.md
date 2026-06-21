@@ -13,6 +13,7 @@ Draft
 - Split TS catalog into individual TS files
 - Rewrite README.md
 - Create manuscript directory structure
+- Write Part II Ch 7–8 (obsolete bridge chapters)
 
 ## Planned ADR
 

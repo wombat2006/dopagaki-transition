@@ -47,6 +47,12 @@ Exploration in an Information Flood
 
 ## Industrialized Exploration
 
+Status:
+In Progress
+
+Index:
+[part02/PART-II.md](part02/PART-II.md)
+
 ### Chapter 4
 
 The Industrialization of Exploration
@@ -71,7 +77,23 @@ Attention Capitalism
 
 ---
 
-### Chapter 7.1
+### Chapter 7
+
+Capital Theory
+
+[Outline] ⚠️ obsolete
+
+---
+
+### Chapter 8
+
+Capitalism vs Communism
+
+[Outline] ⚠️ obsolete bridge
+
+---
+
+### Chapter 9
 
 Attention Scarcity
 
@@ -79,7 +101,7 @@ Attention Scarcity
 
 ---
 
-### Chapter 7.2
+### Chapter 10
 
 Prediction Is The Product
 
@@ -87,7 +109,7 @@ Prediction Is The Product
 
 ---
 
-### Chapter 7.3
+### Chapter 11
 
 The Great Inversion
 

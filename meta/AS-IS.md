@@ -27,3 +27,6 @@ Active
 
 Repository Codification:
 In Progress
+
+Manuscript Part II:
+Scaffolded (Ch 4–11)
