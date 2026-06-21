@@ -88,9 +88,9 @@ constitution/     憲法
 adr/              判例
 ts/               理論仕様
 meta/             管理・二層設計
-meta/glossary-pipeline/  用語抽出 — 問題・手段案（[README](meta/glossary-pipeline/README.md)）
+meta/glossary-pipeline/  用語抽出 — 問題・手段案（[README](meta/glossary-pipeline/README.md)）→ **共有実装:** [term-prep-platform](https://github.com/wombat2006/term-prep-platform)
 research-log/     研究過程（[README](research-log/README.md)）
-scripts/          ツール（[README](scripts/README.md) — glossary_extractor 等）
+scripts/          ツール（[README](scripts/README.md) — glossary_extractor 等、platform へ移行中）
 PROJECT-CONTEXT.md
 ```
 
