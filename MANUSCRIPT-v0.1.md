@@ -19,6 +19,9 @@ Last Updated:
 
 ## Dopagaki and the Exploration Brain
 
+Index:
+[part01/PART-I.md](part01/PART-I.md)
+
 ### Chapter 1
 
 The Dopagaki Problem

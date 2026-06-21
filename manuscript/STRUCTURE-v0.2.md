@@ -13,6 +13,16 @@ Last Updated:
 
 査読完了。Part I 構成は維持。Part II は Ch 7–8（資本論 obsolete ブリッジ）を挿入し Ch 4–11 に再番号。
 
+## Part I — Dopagaki and the Exploration Brain
+
+| Ch | Title | Status |
+|---|---|---|
+| 1 | The Dopagaki Problem | Accepted |
+| 2 | Dopamine Is Not Pleasure | Accepted |
+| 3 | Exploration in an Information Flood | Accepted |
+
+Index: [part01/PART-I.md](part01/PART-I.md)
+
 ## Part II — Industrialized Exploration
 
 | Ch | Title | Status | 想定字数 |

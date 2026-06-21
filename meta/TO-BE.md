@@ -27,3 +27,8 @@ Draft
 - TS-0008 Religion Layer
 - TS-0009 Civilizational Transition
 - TS-0010 AI Civilization Model
+
+## Open Questions
+
+- Part IV 宗教層: Attention Scarcity（Ch 9）から接続する宗教学的・配分規範的論じ方の強化
+- Attention ≠ ∞（母集団制約）を Meaning Allocation / Religion as Infrastructure へ一貫して接続
