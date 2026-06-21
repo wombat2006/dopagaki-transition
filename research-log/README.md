@@ -53,3 +53,4 @@ drafts/                  原稿追記ドラフト（未 Accepted）
 | ID | タイトル | 状態 | 関連 |
 |---|---|---|---|
 | [ISSUE-001](ISSUE-001-attention-capital-constraints.md) | Attention が制約される要因の欠如 | Merged（案C） | ADR-0001, Ch 9 |
+| [RL-20260621](RL-20260621-knowledge-filter-mcp.md) | Knowledge Filter — API 比較と MCP 方針 | **Closed**（stub） | O-P002-004, D-002, mcp/glossary-knowledge |

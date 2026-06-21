@@ -88,7 +88,9 @@ constitution/     憲法
 adr/              判例
 ts/               理論仕様
 meta/             管理・二層設計
+meta/glossary-pipeline/  用語抽出 — 問題・手段案（[README](meta/glossary-pipeline/README.md)）
 research-log/     研究過程（[README](research-log/README.md)）
+scripts/          ツール（[README](scripts/README.md) — glossary_extractor 等）
 PROJECT-CONTEXT.md
 ```
 

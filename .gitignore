@@ -5,3 +5,8 @@ node_modules/
 dist/
 tmp/
 *.log
+.venv/
+__pycache__/
+*.py[cod]
+build/glossary/
+meta/glossary-candidates.json

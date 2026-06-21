@@ -34,3 +34,8 @@ Draft
 
 - Part IV 宗教層: Attention Scarcity（Ch 9）から接続する宗教学的・配分規範的論じ方の強化
 - Attention ≠ ∞（母集団制約）を Meaning Allocation / Religion as Infrastructure へ一貫して接続
+
+## Technical TO-BE
+
+- [TO-BE-GLOSSARY-PIPELINE.md](TO-BE-GLOSSARY-PIPELINE.md) — 用語抽出パイプライン（Phase ロードマップ）
+- [glossary-pipeline/](glossary-pipeline/README.md) — **手段案の列記・採択ログ**（他 PRJ へ `meta/glossary-pipeline/` をコピー）

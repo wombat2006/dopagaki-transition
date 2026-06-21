@@ -14,6 +14,8 @@ Reader Reference
 
 **定義の正典は TS である。** 本ファイルは読者向けの要約である。
 
+候補語の機械抽出: `python3 scripts/glossary_extractor.py`（要 [requirements-dev.txt](../requirements-dev.txt) — fugashi + unidic-lite）。出力は [meta/glossary-candidates.json](meta/glossary-candidates.json)。採択は人間が `GLOSSARY.md` に反映する。
+
 ---
 
 ## 必読（8 語）
@@ -142,6 +144,180 @@ Attention Society:   探索 / 反応 / 共有
 
 ---
 
+## Part II 語彙（Accepted 原稿）
+
+Ch 2–9 で再定義・強調される語。必読 8 語のあとに読むと原稿が通りやすい。
+
+### 探索（Exploration）
+
+**一行:** ドーパミン回路が駆動する「次を探す」行動。快楽追求ではない。
+
+**≠ よくある誤解:** 日常の「探検」「調査」と同義ではない。神経科学的には **期待と予測誤差** に結びつく。
+
+| 根拠 | リンク |
+|---|---|
+| TS-0002 | [ts/TS-CATALOG.md#ts-0002-dopamine-as-exploration](ts/TS-CATALOG.md) |
+| 原稿 | [manuscript/part01/ch02-dopamine-is-not-pleasure.md](manuscript/part01/ch02-dopamine-is-not-pleasure.md) |
+
+---
+
+### ドーパミン
+
+**一行:** 快楽物質ではなく、探索・予測・学習・期待を支援する神経伝達物質。
+
+**≠ よくある誤解:** 「ドーパミン＝快楽・中毒」の通俗説は本研究では採用しない。
+
+| 根拠 | リンク |
+|---|---|
+| TS-0002 | [ts/TS-CATALOG.md#ts-0002-dopamine-as-exploration](ts/TS-CATALOG.md) |
+
+---
+
+### 進化的不一致（Evolutionary Mismatch）
+
+**一行:** 神経系（旧環境向け）と情報環境（新）のズレ。ドパガキはその **適応** として読む。
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part01/ch03-exploration-in-information-flood.md](manuscript/part01/ch03-exploration-in-information-flood.md) |
+
+---
+
+### スキナー箱（Skinner Box）/ 工業化されたスキナー箱
+
+**一行:** 変動報酬で行動を強化する装置。SNS を ** planetary scale の Skinner Box** とみなす比喩。
+
+**≠ よくある誤解:** 陰謀論ではなく、**強化学習＋プラットフォーム競争** の構造比喩。
+
+| 根拠 | リンク |
+|---|---|
+| TS-0003 | [ts/TS-CATALOG.md#ts-0003-skinner-box-sns-model](ts/TS-CATALOG.md) |
+| 原稿 | [manuscript/part02/ch05-skinner-box-planetary-scale.md](manuscript/part02/ch05-skinner-box-planetary-scale.md) |
+
+---
+
+### Variable Reward（変動報酬）
+
+**一行:** 報酬の大きさ・タイミングが一定でない設計。探索・エンゲージメントを最大化しやすい。
+
+```text
+Variable Reward → Exploration → Reinforcement Learning → Continued Engagement
+```
+
+| 根拠 | リンク |
+|---|---|
+| TS-0003 | [ts/TS-CATALOG.md#ts-0003-skinner-box-sns-model](ts/TS-CATALOG.md) |
+
+---
+
+### Attention Capture（注意捕捉）
+
+**一行:** 注意を引きつけ・拘束して価値化するプロセス。Attention Capitalism の抽出メカニズム。
+
+```text
+Attention Capitalism → Attention Capture → Value Creation
+```
+
+| 根拠 | リンク |
+|---|---|
+| TS-0004 | [ts/TS-CATALOG.md#ts-0004-attention-capitalism](ts/TS-CATALOG.md) |
+
+---
+
+### Attention Inflation
+
+**一行:** 「情報が増えれば注意も増える」という仮説。**本研究では棄却**。
+
+**≠ よくある誤解:** 採用されている概念ではない。Ch 9 の出発点はその **反証**。
+
+| 根拠 | リンク |
+|---|---|
+| ADR-0001 | [adr/ADR-CATALOG.md#adr-0001-attention-scarcity](adr/ADR-CATALOG.md) |
+| 原稿 | [manuscript/part02/ch09-attention-scarcity.md](manuscript/part02/ch09-attention-scarcity.md) §9.1 |
+
+---
+
+### Attention Capacity / Capture（容量と獲得）
+
+**一行:** **Capacity**＝注意の潜在総量（人口×時間×帯域）。**Capture**＝その有限プールを誰が取るか。
+
+**≠ よくある誤解:** 日常語の「容量」「捕獲」と混同しやすい。本研究では **Layer 1 / Layer 2** で層を分ける。
+
+```text
+Layer 1  Ontological Scarcity     … Attention Capacity
+Layer 2  Economic Access Scarcity … Capture 競争・参加条件
+```
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part02/ch09-attention-scarcity.md](manuscript/part02/ch09-attention-scarcity.md) §9.2.1 |
+| Log | [research-log/ISSUE-001-attention-capital-constraints.md](research-log/ISSUE-001-attention-capital-constraints.md) |
+
+---
+
+### Cognitive Bandwidth（認知帯域幅）
+
+**一行:** 同時に処理できる注意量。Population・Time と並ぶ **Layer 1** の制約因子。
+
+| 根拠 | リンク |
+|---|---|
+| ADR-0001 | [adr/ADR-CATALOG.md#adr-0001-attention-scarcity](adr/ADR-CATALOG.md) |
+
+---
+
+### Platform Capital / Participation Capital
+
+**一行:** **Platform Capital**＝獲得側（広告費・CAPEX 等）。**Participation Capital**＝参加側（端末・通信料等の自己負担）。
+
+**≠ よくある誤解:** 「資本＝お金」だけではない。後者は **土俵に載るための参入コスト**。
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part02/ch09-attention-scarcity.md](manuscript/part02/ch09-attention-scarcity.md) §9.2.2 |
+| Log | [research-log/ISSUE-001-attention-capital-constraints.md](research-log/ISSUE-001-attention-capital-constraints.md) |
+
+---
+
+### Effective Population（実効人口）
+
+**一行:** 注意市場に実際に載る母集団。`Effective Population <= Population` — Participation Capital により間引かれる。
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part02/ch09-attention-scarcity.md](manuscript/part02/ch09-attention-scarcity.md) §9.2.3 |
+
+---
+
+### Participatory Resource（参加型資源）
+
+**一行:** 労働者でも消費者でもない第三の位置。賃金なく価値を生み、参加には **Participation Capital** が要る。
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part02/ch07-digital-capital-theory.md](manuscript/part02/ch07-digital-capital-theory.md) §7.3 |
+
+---
+
+### 行動採掘（Behavioural Extraction Economy）
+
+**一行:** 検索・滞在・クリック等の **行動データを原材料** として採掘する経済。
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part02/ch07-digital-capital-theory.md](manuscript/part02/ch07-digital-capital-theory.md) §7.3 |
+
+---
+
+### ゼロサム（に近い競争）
+
+**一行:** 注意の総量が有限のとき、プラットフォーム間の獲得競争は **ゼロサムに近い**。
+
+| 根拠 | リンク |
+|---|---|
+| 原稿 | [manuscript/part02/ch09-attention-scarcity.md](manuscript/part02/ch09-attention-scarcity.md) §9.2 |
+
+---
+
 ## 続き（Part III 以降）
 
 ### 意味の配分（Meaning Allocation）
@@ -183,30 +359,23 @@ Religion = Attention Allocation System
 
 ---
 
-## 補足（原稿内の用語）
+## 補足（索引）
 
-### 行動採掘経済（Behavioural Extraction Economy）
+Part II 語彙および必読 8 語に統合済み。以下はエイリアス・式のみ。
 
-プラットフォームが検索履歴・滞在時間・クリックパターンなど **行動データを原材料** として採掘するモデル。原稿 §7.3 で導入。
+### User ≠ Product / Prediction = Product
 
-→ [manuscript/part02/ch07-digital-capital-theory.md](manuscript/part02/ch07-digital-capital-theory.md)
-
-### Participatory Resource（参加型資源）
-
-労働者でも消費者でもない第三の位置。賃金なく価値を生み、意図せず企業利益へ変換される利用者。原稿 §7.3。
-
-→ [manuscript/part02/ch07-digital-capital-theory.md](manuscript/part02/ch07-digital-capital-theory.md)
+→ 必読「[予測＝商品](#予測＝商品prediction--product)」参照。
 
 ### ドーパミン経済
 
-探索・期待を連続刺激する報酬系設計が、市場競争の対象になった状態。第 4–6 章の文脈語（TS 単独項目なし）。
-
-→ [manuscript/part02/ch04-industrialization-of-exploration.md](manuscript/part02/ch04-industrialization-of-exploration.md)
+→ Part II「探索」「Variable Reward」および [manuscript/part02/ch04-industrialization-of-exploration.md](manuscript/part02/ch04-industrialization-of-exploration.md)
 
 ---
 
 ## 読む順の提案
 
-1. 本用語集（5 分）
-2. [manuscript/README.md](manuscript/README.md) の推奨ルート（30 分）
-3. 気になる語の TS / ADR へ
+1. 必読 8 語（10 分）
+2. Part II 語彙（15 分）— Ch 2–9 を読む前でも可
+3. [manuscript/README.md](manuscript/README.md) の推奨ルート（30 分）
+4. 気になる語の TS / ADR へ
