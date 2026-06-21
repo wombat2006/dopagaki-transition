@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "glossary-config.schema.json",
+  "title": "Glossary Extractor Config",
+  "description": "Phase 0 stub schema for meta/glossary-config.json. Phase 1 (T1-4) may tighten constraints.",
+  "type": "object",
+  "required": ["version", "corpus", "scoring"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Repo-relative path to this schema file."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "project_root": {
+      "type": "string",
+      "description": "Path relative to this config file to the consumer project root.",
+      "default": ".."
+    },
+    "morphology": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "backend": {
+          "type": "string",
+          "enum": ["fugashi"]
+        },
+        "dictionary": {
+          "type": "string",
+          "enum": ["unidic-lite", "unidic", "unidic_lite", "ipadic", "ipadic-utf8"]
+        },
+        "required": {
+          "type": "boolean",
+          "default": true
+        },
+        "comment": {
+          "type": "string"
+        }
+      }
+    },
+    "corpus": {
+      "type": "object",
+      "required": ["files"],
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "reference_catalogs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "filter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "seed_first": {
+          "type": "boolean",
+          "default": true
+        },
+        "min_morph_freq": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "min_chapters": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_candidates_output": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "emit_reject": {
+          "type": "boolean",
+          "default": false,
+          "description": "When false, reject rows are not written to disk."
+        }
+      }
+    },
+    "knowledge_filter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "mcp_server": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transport": {
+          "type": "string",
+          "enum": ["stdio"]
+        },
+        "domain": {
+          "type": "string"
+        },
+        "batch_size": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "output": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "description": "Legacy single-file output path."
+        },
+        {
+          "type": "object",
+          "required": ["adopt", "hold"],
+          "additionalProperties": false,
+          "properties": {
+            "registry": {
+              "type": "string",
+              "minLength": 1
+            },
+            "adopt": {
+              "type": "string",
+              "minLength": 1
+            },
+            "hold": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reject": {
+              "type": "string",
+              "minLength": 1
+            },
+            "legacy_candidates": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Deprecated path kept for migration docs only."
+            }
+          }
+        }
+      ]
+    },
+    "scoring": {
+      "type": "object",
+      "required": ["adopt_threshold", "hold_threshold", "weights"],
+      "additionalProperties": false,
+      "properties": {
+        "adopt_threshold": {
+          "type": "integer"
+        },
+        "hold_threshold": {
+          "type": "integer"
+        },
+        "weights": {
+          "type": "object",
+          "required": [
+            "in_ts_or_adr",
+            "multi_chapter",
+            "emphasis",
+            "english_pair",
+            "already_in_glossary",
+            "stop_noun"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "in_ts_or_adr": { "type": "integer" },
+            "multi_chapter": { "type": "integer" },
+            "emphasis": { "type": "integer" },
+            "english_pair": { "type": "integer" },
+            "already_in_glossary": { "type": "integer" },
+            "stop_noun": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "stop_nouns": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "stop_english": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "manual_adopt": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "manual_reject": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}
