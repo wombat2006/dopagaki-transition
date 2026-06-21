@@ -39,7 +39,7 @@ python3 -m unidic download
 
 **Purpose:** Extract glossary candidates from Markdown corpora using **fugashi + external dictionary** (mandatory).
 
-**Design:** Config-driven (`meta/glossary-config.json`). Governance（問題・手段案）は [meta/glossary-pipeline/](../meta/glossary-pipeline/README.md)。方向性は [TO-BE-GLOSSARY-PIPELINE.md](../meta/TO-BE-GLOSSARY-PIPELINE.md).
+**Design:** Config-driven (`meta/glossary-config.json`). Loads are validated against `meta/schemas/glossary-config.schema.json` (requires `jsonschema` from `requirements-dev.txt`). Governance（問題・手段案）は [meta/glossary-pipeline/](../meta/glossary-pipeline/README.md)。方向性は [TO-BE-GLOSSARY-PIPELINE.md](../meta/TO-BE-GLOSSARY-PIPELINE.md).
 
 ```bash
 # Verify fugashi + dictionary
